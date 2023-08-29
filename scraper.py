@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 HUB_URL = 'http://selenium-hub:4444/wd/hub'  # URL of the Selenium Grid Hub
 
 # MongoDB setup
-client = MongoClient('mongodb+srv://Kalam1:syha2654@cluster1.4lpgqtp.mongodb.net/?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://@cluster1.4lpgqtp.mongodb.net/?retryWrites=true&w=majority')
 db = client['mcs_assignment']
 collection = db['quotes']
 
